@@ -2,30 +2,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="#000000" >
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="계산기를 선택하시오."
+        android:textColor="#ffffff"
         android:layout_margin="15dp"
-        android:textSize="23dp" />
+        android:textSize="25dp" />
     <Button
         android:id="@+id/BtnAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:textSize="15dp"
-        android:backgroundTint="#D5C2EE"
+        android:textColor="#ffffff"
+        android:backgroundTint="#464646"
         android:text="더하기" />
 
     <Button
         android:id="@+id/BtnSub"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#ffffff"
         android:layout_margin="10dp"
         android:textSize="15dp"
-        android:backgroundTint="#D5C2EE"
+        android:backgroundTint="#464646"
         android:text="빼기" />
     <Button
         android:id="@+id/BtnMul"
@@ -33,7 +37,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:textSize="15dp"
-        android:backgroundTint="#D5C2EE"
+        android:textColor="#ffffff"
+        android:backgroundTint="#464646"
         android:text="곱하기" />
     <Button
         android:id="@+id/BtnDiv"
@@ -41,14 +46,18 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:textSize="15dp"
-        android:backgroundTint="#D5C2EE"
+        android:textColor="#ffffff"
+        android:backgroundTint="#464646"
         android:text="나누기" />
     <Button
         android:id="@+id/btnReturn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:textSize="15dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#FFCD28"
+        android:textStyle="bold"
         android:text="돌아가기" />
 
 

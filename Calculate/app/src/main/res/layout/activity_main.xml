@@ -2,27 +2,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="#000000">
 
     <EditText
         android:id="@+id/Edit1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textSize="20dp"
         android:gravity="center"
-        android:hint="숫자1" />
+        android:hint="숫자1"
+        android:background="#ffffff"
+        android:inputType="number" />
     <EditText
         android:id="@+id/Edit2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textSize="20dp"
         android:gravity="center"
-        android:hint="숫자2" />
+        android:background="#ffffff"
+        android:hint="숫자2"
+        android:inputType="number" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:backgroundTint="#FFCD28"
         android:id="@+id/btnCalculate"
+        android:textStyle="bold"
         android:text="계산하기" />
 
 </LinearLayout>
